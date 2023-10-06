@@ -1,0 +1,17 @@
+body{
+    
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#PokePic{
+    width: 30vw;
+    image-rendering: pixelated;
+}

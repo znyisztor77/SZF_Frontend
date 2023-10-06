@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <!--script defer src="api.js"></script A defer berakja a body végére és nem jelez hibát--> 
+    
+</head>
+<body>
+
+    <h1>Pokémon</h1>
+
+    <select  id="pokemons" onchange="updatePoke(this)">
+    </select>
+
+    
+    <img id ="PokePic">
+
+    <h2 id="name"> </h2>
+    <h3 id="PokeType"></h3>
+
+    <script src="api.js"></script>
+
+
+    
+</body>
+</html>
