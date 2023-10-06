@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foxgram</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <select onchange="updatePage(this)">
+            <option value="fox">Team Fox</option>
+            <option value="dog">Team Dog</option>
+
+        </select>
+
+        <div id="personalInfo">
+        <div id="profilePic">
+            <!--img src="kacsa.webp" alt=""-->
+        </div>
+        <div id="bio">
+            <h1>Akárki János</h1>
+        </div>
+
+        </div>
+
+        <div id="pictures">
+            <!--div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div-->
+        </div>            
+            
+        
+
+
+    </div>
+    
+</body>
+</html>
